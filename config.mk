@@ -11,7 +11,7 @@ PRODUCT_COPY_FILES += \
 	$(call find-copy-subdir-files,*,$(VENDOR_PATH)/system/product/preinstall,system/product/preinstall) \
 	$(call find-copy-subdir-files,*,$(VENDOR_PATH)/system/lib,system/lib) \
 	$(call find-copy-subdir-files,*,$(VENDOR_PATH)/system/lib64,system/lib64) \
-	$(VENDOR_PATH)/system/framework/miuiframework.jar:system/framework/framework.jar
+	$(VENDOR_PATH)/system/framework/miuiframework.jar:system/framework/miuiframework.jar
 
 PRODUCT_PACKAGES += \
     miui \
